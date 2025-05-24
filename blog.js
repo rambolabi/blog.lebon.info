@@ -2,7 +2,7 @@
 const blogPosts = [
     {
         id: 5,
-        title: "Advanced Security Best Practices for 2025",
+        title: "RVTools Compromise: Security Advisory",
         date: "2025-05-20",
         tags: ["Security"],
         content: [
