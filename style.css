@@ -23,7 +23,7 @@ header {
     text-align: center;
     margin-bottom: 40px;
     padding: 40px 0;
-    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    background: linear-gradient(135deg, #6b46c1, #7b68ee);
     border-radius: 15px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
@@ -64,10 +64,10 @@ header h1 {
 }
 
 .filter-section h3 {
-    color: #4a90e2;
+    color: #6b46c1;
     margin-bottom: 15px;
     font-size: 1.1rem;
-    border-bottom: 2px solid #4a90e2;
+    border-bottom: 2px solid #6b46c1;
     padding-bottom: 5px;
 }
 
@@ -90,7 +90,7 @@ header h1 {
 }
 
 .tag-filter:hover, .date-item:hover {
-    background: #4a90e2;
+    background: #6b46c1;
     transform: translateX(5px);
 }
 
@@ -135,7 +135,7 @@ header h1 {
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
-    border-left: 4px solid #4a90e2;
+    border-left: 4px solid #6b46c1;
 }
 
 .blog-post:hover {
@@ -154,7 +154,7 @@ header h1 {
 .post-title {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #4a90e2;
+    color: #6b46c1;
 }
 
 .post-meta {
@@ -229,7 +229,7 @@ header h1 {
 .post-more-link a {
     display: inline-flex;
     align-items: center;
-    color: #4a90e2;
+    color: #6b46c1;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 20px;
@@ -239,7 +239,7 @@ header h1 {
 }
 
 .post-more-link a:hover {
-    background: #4a90e2;
+    background: #6b46c1;
     color: white;
     transform: translateX(5px);
     box-shadow: 0 4px 15px rgba(74, 144, 226, 0.3);
@@ -261,7 +261,7 @@ header h1 {
 }
 
 .post-source a {
-    color: #4a90e2;
+    color: #6b46c1;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -304,7 +304,7 @@ header h1 {
 }
 
 .sidebar::-webkit-scrollbar-thumb {
-    background: #4a90e2;
+    background: #6b46c1;
     border-radius: 3px;
 }
 
