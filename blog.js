@@ -4,7 +4,7 @@ const blogPosts = [
         id: 7,
         title: "Autofill via Microsoft Authenticator ends in July 2025",
         date: "2025-05-27",
-        tags: ["Security"],
+        tags: ["Security", "Notice"],
         content: [
             "As of July 2025, Microsoft will discontinue the Autofill feature in the Microsoft Authenticator app. This feature allowed users to save and autofill passwords across devices.",
             "This is the perfect time to review your password management strategy and ensure you have a secure and reliable solution in place.",
@@ -53,7 +53,7 @@ const blogPosts = [
         id: 5,
         title: "RVTools Compromise: Security Advisory",
         date: "2025-05-20",
-        tags: ["Security"],
+        tags: ["Security", "Notice"],
         content: [
             "Sans Institute confirmed the RVTools compromise today.",
             "The situation seems to be like this:",
