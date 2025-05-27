@@ -7,13 +7,12 @@ const blogPosts = [
         tags: ["Security"],
         content: [
             "As of July 2025, Microsoft will discontinue the Autofill feature in the Microsoft Authenticator app. This feature allowed users to save and autofill passwords across devices.",
-            "Users are encouraged to transition to other password management solutions, such as Microsoft Edge's built-in password manager or third-party options like LastPass or 1Password.",
             "This is the perfect time to review your password management strategy and ensure you have a secure and reliable solution in place.",
             "We help our customers with password management solutions, so if you need assistance, feel free to reach out to us.",
             "According to Microsoft:",
-            "Starting June 2025, you will no longer be able to save new passwords in Authenticator.",
-            "During July 2025, you will not be able to use autofill with Authenticator.",
-            "From August 2025, your saved passwords will no longer be accessible in Authenticator.",
+            "<code>Starting June 2025, you will no longer be able to save new passwords in Authenticator.</code>",
+            "<code>During July 2025, you will not be able to use autofill with Authenticator.</code>",
+            "<code>From August 2025, your saved passwords will no longer be accessible in Authenticator.</code>",
         ],
          image: "./media/2025-05/deadphone.jpeg",
         // moreLink: {
