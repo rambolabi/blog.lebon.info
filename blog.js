@@ -1,6 +1,56 @@
 // Blog data - Add new posts here (newest first)
 const blogPosts = [
     {
+        id: 7,
+        title: "Autofill via Microsoft Authenticator ends in July 2025",
+        date: "2025-05-27",
+        tags: ["Security"],
+        content: [
+            "As of July 2025, Microsoft will discontinue the Autofill feature in the Microsoft Authenticator app. This feature allowed users to save and autofill passwords across devices.",
+            "Users are encouraged to transition to other password management solutions, such as Microsoft Edge's built-in password manager or third-party options like LastPass or 1Password.",
+            "This is the perfect time to review your password management strategy and ensure you have a secure and reliable solution in place.",
+            "We help our customers with password management solutions, so if you need assistance, feel free to reach out to us.",
+            "According to Microsoft:",
+            "Starting June 2025, you will no longer be able to save new passwords in Authenticator.",
+            "During July 2025, you will not be able to use autofill with Authenticator.",
+            "From August 2025, your saved passwords will no longer be accessible in Authenticator.",
+        ],
+         image: "./media/2025-05/deadphone.jpeg",
+        // moreLink: {
+        //     text: "Link to the antiphishing settings",
+        //     url: "https://security.microsoft.com/antiphishing?"
+        // },
+        source: {
+            text: "Changes to Microsoft Authenticator autofill",
+            url: "https://support.microsoft.com/en-us/account-billing/changes-to-microsoft-authenticator-autofill-09fd75df-dc04-4477-9619-811510805ab6"
+        }
+    },
+        {
+        id: 6,
+        title: "Impersonation Protection",
+        date: "2025-05-26",
+        tags: ["Security"],
+        content: [
+            "Great tip for every company under 350 employees: If you are using Microsoft 365, you can enable impersonation protection to prevent attackers from impersonating your domain and users.",
+            "This feature is available in Microsoft 365 Defender and can be enabled by following these steps:",
+            "1. Go to the Microsoft 365 Defender portal.",
+            "2. Navigate to the Email & Collaboration section.",
+            "3. Click on Policies & Rules.",
+            "4. Select Threat Policies.",
+            "5. Under the Anti-phishing section, open your policy",
+            "6. Enable the feature and configure the settings as needed.",
+        ],
+        image: "./media/2025-05/impersonationProtection.png",
+        moreLink: {
+            text: "Link to the antiphishing settings",
+            url: "https://security.microsoft.com/antiphishing?"
+        },
+        // source: {
+        //     text: "SANS Stormcast Friday, May 16th, 2025",
+        //     url: "https://isc.sans.edu/podcastdetail/9454"
+        // }
+    },
+        {
         id: 5,
         title: "RVTools Compromise: Security Advisory",
         date: "2025-05-20",
