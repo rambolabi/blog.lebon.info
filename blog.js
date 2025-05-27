@@ -57,7 +57,8 @@ const blogPosts = [
         tags: ["Security"],
         content: [
             "Sans Institute confirmed the RVTools compromise today.",
-            "The situation seems to be that the attackers have gained access to the RVTools website and are using it to distribute malware. The site is currently down for maintenance with the following message [see added screenshot].",
+            "The situation seems to be like this:",
+            "The attackers have gained access to the RVTools website and are using it to distribute malware. The site is currently down for maintenance with the following message [see added screenshot].",
             "Today we checked if any of our customers are affected, we do trust our EDR detection capabilities, and we have not seen any alerts related to this incident. However, we recommend that all users of RVTools take steps to ensure their systems are secure.",
             "It is possible to compare the hash of the downloaded file with the known good hash. If you have downloaded RVTools in the past, you can check the hash of the file you have against the known good hash. The bad hash has been seen as malicious on Virustotal.",
         ],
